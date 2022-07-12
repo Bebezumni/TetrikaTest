@@ -20,4 +20,5 @@ while True:
 
     else:
         break
-print(titlelist)
+for k, v in titlelist.items():
+    print(f"{k}: {v}")
